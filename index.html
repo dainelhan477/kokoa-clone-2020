@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kokoa Clone</title>
   </head>
   <body>
+    <!-- status bar -->
     <div class="status-bar">
       <div class="status-bar_column">
         <span>No Service</span>
@@ -16,17 +18,20 @@
       </div>
       <div class="status-bar_column">
         <span>50%</span>
-        <i class="fas fa-battery-half"></i>
+        <i class="fas fa-battery-half fa-lg"></i>
         <i class="fas fa-bolt"></i>
       </div>
     </div>
 
+    <!-- welcome-header -->
     <header class="welcome-header">
       <h1 class="welcome-header_title">Welcom to Kokoa Clone</h1>
       <p class="welcome-header_text">
         If you have a Kokoa Account, log in with you.
       </p>
     </header>
+
+    <!-- login form -->
     <form id="login-form">
       <input type="text" placeholder="Email or Phone number" />
       <input type="password" placeholder="Password" />

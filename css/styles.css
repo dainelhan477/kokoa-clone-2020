@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap");
+.status-bar {
+  display: flex;
+  justify-content: center;
+}
+.status-bar_column {
+  width: 33%;
+}
+
+.status-bar_column:first-child span {
+  margin-right: 5px;
+}
+.status-bar_column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.status-bar_column:last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.status-bar_column .fa-battery-half {
+  margin: 0px 5px;
+}
