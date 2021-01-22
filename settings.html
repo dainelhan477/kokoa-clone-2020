@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Charts - Kokoa Clone</title>
+    <title>Settings - Kokoa Clone</title>
   </head>
   <body>
     <!-- status bar -->
@@ -23,35 +23,44 @@
       </div>
     </div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">Charts</h1>
-      <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="far fa-comment-dots fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html">
+          <i class="fas fa-angle-left fa-3x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Settings</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fas fa-search fa-lg"></i>
       </div>
     </header>
 
     <main class="main-screen">
-      <a href="chat.html">
-        <div class="user-component">
-          <div class="user-component_column">
-            <img
-              src="https://mania.kr/g2/data/file/freetalk/view_thumbnail/mania-done-1514454629_ke3xB801_Q8unT7uR.jpg"
-              class="user-component-avatar user-component-avatar"
-            />
-            <div class="user-component_text">
-              <h4 class="user-component_title">꼬부기</h4>
-              <h6 class="user-component_subtitle">꼬북꼬북 모부!</h6>
-            </div>
+      <ul class="settings__list">
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-bullhorn fa-lg"></i>
+            <span>Notice</span>
           </div>
-          <div class="user-component_column">
-            <span class="user-component_time">21:22</span>
-            <span class="badge">1</span>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-flask fa-lg"></i>
+            <span>kokoa Lab</span>
           </div>
-        </div>
-      </a>
+          <div class="settings__setting-column"></div>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting-column">
+            <i class="fas fa-info-circle fa-lg"></i>
+            <span>Version</span>
+          </div>
+          <div class="settings__setting-column">Latest Version</div>
+        </li>
+      </ul>
     </main>
 
     <nav class="nav">
@@ -64,7 +73,7 @@
         <li class="nav__btn">
           <a class="nav__link" href="charts.html">
             <span class="nav__notification badge">1</span>
-            <i class="fas fa-comment fa-2x"></i>
+            <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
